@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@600&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .container {
@@ -35,23 +34,23 @@
 }
 
 .container .topbar .searchDiv form {
-  -webkit-animation: searchdivanim 0.2s linear;
-  animation: searchDivAnim 0.2s linear;
+  -webkit-animation: searchDivAnim 0.2s linear;
+          animation: searchDivAnim 0.2s linear;
   height: 50px;
   width: 183px !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   top: 100%;
   right: 0;
   background: #fff;
   max-width: 500px;
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
   padding: 14px 10px;
   color: #666;
 }
@@ -64,22 +63,22 @@
 
 .container .topbar .searchDiv form input::-webkit-input-placeholder {
   font-size: 12px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .container .topbar .searchDiv form input:-ms-input-placeholder {
   font-size: 12px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .container .topbar .searchDiv form input::-ms-input-placeholder {
   font-size: 12px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .container .topbar .searchDiv form input::placeholder {
   font-size: 12px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .container .topbar .searchDiv form i {
@@ -94,18 +93,18 @@
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   list-style: none;
 }
 
 .container .topbar ul.nav-links li {
   line-height: 1.3em;
   padding: 4px 12px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 11px;
 }
 
@@ -117,9 +116,7 @@
   padding: 4px 20px 4px 12px;
 }
 
-.container .topbar ul.nav-links li:nth-child(2),
-.container .topbar ul.nav-links li:nth-child(3),
-.container .topbar ul.nav-links li:nth-child(4) {
+.container .topbar ul.nav-links li:nth-child(2), .container .topbar ul.nav-links li:nth-child(3), .container .topbar ul.nav-links li:nth-child(4) {
   padding: 4px 5px;
 }
 
@@ -142,7 +139,7 @@
 
 .container header.header nav {
   margin-top: 25px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
 }
@@ -154,11 +151,11 @@
   list-style: none;
   line-height: 1.3em;
   -webkit-margin-before: 1em;
-  margin-block-start: 1em;
+          margin-block-start: 1em;
   -webkit-margin-after: 1em;
-  margin-block-end: 1em;
+          margin-block-end: 1em;
   -webkit-padding-start: 40px;
-  padding-inline-start: 40px;
+          padding-inline-start: 40px;
 }
 
 .container header.header nav ul li {
@@ -166,7 +163,19 @@
   cursor: pointer;
 }
 
+.container header.header nav ul li span.first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+  white-space: nowrap;
+}
+
 .container header.header nav ul li a {
+  white-space: nowrap;
   text-decoration: none;
   color: #000;
 }
@@ -180,20 +189,20 @@
   display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   padding: 0;
   position: absolute;
   -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
-  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
-  -webkit-animation: linksanim 0.1s ease-out;
-  animation: linksAnim 0.1s ease-out;
+          box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+  -webkit-animation: linksAnim 0.1s ease-out;
+          animation: linksAnim 0.1s ease-out;
 }
 
 .container header.header nav ul li ul li {
   padding: 15px 20px;
   font-size: 14px;
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   color: #44667c;
 }
 
@@ -211,15 +220,14 @@
   display: flex !important;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media screen and (max-width: 960px) {
   .container {
     width: 100%;
   }
-
   .container .topbar {
     height: 48px;
     padding: 0 10px;
@@ -227,30 +235,25 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     -webkit-transition: 0.5s ease;
     transition: 0.5s ease;
   }
-
   .container .topbar button,
   .container .topbar img {
     display: block;
   }
-
   .container .topbar ul.nav-links li {
     display: none;
     background-color: transparent;
   }
-
   .container .topbar ul.nav-links li:first-child {
     display: block;
   }
-
   .container .topbar ul.nav-links li:first-child:hover {
     background-color: transparent;
   }
-
   .container .topbar button {
     padding: 14.6px 10px;
     background-color: transparent;
@@ -258,18 +261,15 @@
     border: none;
     cursor: pointer;
   }
-
   .container .topbar button i {
     color: #fff;
     font-weight: 800;
     font-size: 16px;
   }
-
   .container .topbar img {
     height: 25px;
     margin: 16px 0;
   }
-
   .container .header {
     display: none !important;
   }
@@ -290,7 +290,7 @@
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-box-shadow: inset -7px 0 18px -7px rgba(0, 0, 0, 0.6);
-  box-shadow: inset -7px 0 18px -7px rgba(0, 0, 0, 0.6);
+          box-shadow: inset -7px 0 18px -7px rgba(0, 0, 0, 0.6);
   list-style: none;
   margin-top: 12px;
 }
@@ -300,7 +300,7 @@
 }
 
 .mobile-nav ul li {
-  font-family: "Merriweather Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #fff;
@@ -311,11 +311,7 @@
   transition: all 0.5s ease;
 }
 
-.mobile-nav ul li:nth-last-child(1),
-.mobile-nav ul li:nth-last-child(2),
-.mobile-nav ul li:nth-last-child(3),
-.mobile-nav ul li:nth-last-child(4),
-.mobile-nav ul li:nth-last-child(5) {
+.mobile-nav ul li:nth-last-child(1), .mobile-nav ul li:nth-last-child(2), .mobile-nav ul li:nth-last-child(3), .mobile-nav ul li:nth-last-child(4), .mobile-nav ul li:nth-last-child(5) {
   padding: 12px 25px;
 }
 
@@ -348,8 +344,8 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .marginLeft0 {
@@ -372,7 +368,6 @@
   from {
     top: 140%;
   }
-
   to {
     top: 100%;
   }
@@ -382,7 +377,6 @@
   from {
     top: 140%;
   }
-
   to {
     top: 100%;
   }
@@ -393,7 +387,6 @@
     margin-top: 50px;
     opacity: 0;
   }
-
   to {
     margin-top: 15px;
     opacity: 1;
@@ -405,7 +398,6 @@
     margin-top: 50px;
     opacity: 0;
   }
-
   to {
     margin-top: 15px;
     opacity: 1;
@@ -429,3 +421,4 @@
   background-color: #d8770e;
   padding-bottom: 12px;
 }
+/*# sourceMappingURL=style.css.map */
