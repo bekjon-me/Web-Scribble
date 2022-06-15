@@ -5,7 +5,199 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Acad</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="topbar">
+        <button id="hamburger" type="button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <img
+          src="https://acad.org/wp-content/uploads/2017/09/ACAD_logo_Small_Reverse_25px.png"
+          alt="ACAD Logo"
+        />
+
+        <div class="searchDiv">
+          <form role="search">
+            <input id="searchInput" type="text" placeholder="Search..." />
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </form>
+        </div>
+
+        <ul class="nav-links">
+          <li id="searchBtn">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li><a href="#">Subscribe for Email Updates</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Renew</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">75th Anniversary Year</a></li>
+        </ul>
+      </div>
+      <header class="header">
+        <div id="logo">
+          <a href="#"
+            ><img src="./src/images/AcadLogo.png" alt="ACAD Logo"
+          /></a>
+        </div>
+        <nav>
+          <ul>
+            <li class="nav-link"><a href="#">Home</a></li>
+            <li class="nav-link">
+              <span>
+                <span>About</span> <i class="fa-solid fa-angle-down"></i>
+              </span>
+              <ul>
+                <li>75th Anniversary Year</li>
+                <li>Who We Are</li>
+                <li>Mission, Vision, Values</li>
+                <li>Board & Staff</li>
+                <li>History</li>
+                <li>Annual Award</li>
+                <li>ACAD Fellows Program</li>
+                <li>Contact</li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <span>
+                <span>Membership</span> <i class="fa-solid fa-angle-down"></i>
+              </span>
+              <ul>
+                <li>Member Benefits</li>
+                <li>Join ACAD</li>
+                <li>Get Involved</li>
+                <li>Peer Conferencing Program</li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <span>
+                <span>Meetings & Events</span>
+                <i class="fa-solid fa-angle-down"></i>
+              </span>
+              <ul>
+                <li>Annual Meeting</li>
+                <li>Conferences</li>
+                <li>Deans' Institute</li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <span>
+                <span>Resources</span> <i class="fa-solid fa-angle-down"></i>
+              </span>
+              <ul>
+                <li>ACAD Reading List</li>
+                <li>Explore Resources</li>
+                <li>
+                  The Resource Handbook for <br />
+                  Academic Deans
+                </li>
+                <li>The ACAD Leader</li>
+                <li>Partners</li>
+              </ul>
+            </li>
+            <li class="nav-link">
+              <a href="#"
+                ><span>Career Center </span
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="mobile-nav" id="mobile-nav">
+      <ul>
+        <li id="homeMobile" class="nav-link">
+          <a href="#">Home</a>
+        </li>
+        <li class="nav-link">
+          <span>
+            <span>About</span> <i class="fa-solid fa-angle-down"></i>
+          </span>
+          <ul>
+            <li>75th Anniversary Year</li>
+            <li>Who We Are</li>
+            <li>Mission, Vision, Values</li>
+            <li>Board & Staff</li>
+            <li>History</li>
+            <li>Annual Award</li>
+            <li>ACAD Fellows Program</li>
+            <li>Contact</li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <span>
+            <span>Membership</span> <i class="fa-solid fa-angle-down"></i>
+          </span>
+          <ul>
+            <li>Member Benefits</li>
+            <li>Join ACAD</li>
+            <li>Get Involved</li>
+            <li>Peer Conferencing Program</li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <span>
+            <span>Meetings & Events</span>
+            <i class="fa-solid fa-angle-down"></i>
+          </span>
+          <ul class="displayNone1">
+            <li>Annual Meeting</li>
+            <li>Conferences</li>
+            <li>Deans' Institute</li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <span>
+            <span>Resources</span> <i class="fa-solid fa-angle-down"></i>
+          </span>
+          <ul class="displayNone1">
+            <li>ACAD Reading List</li>
+            <li>Explore Resources</li>
+            <li>
+              The Resource Handbook for <br />
+              Academic Deans
+            </li>
+            <li>The ACAD Leader</li>
+            <li>Partners</li>
+          </ul>
+        </li>
+        <li class="nav-link">
+          <span>
+            <a href="#">
+              <span>
+                <i class="fa-solid fa-up-right-from-square"></i>
+                <span>Career Center</span>
+              </span>
+            </a>
+          </span>
+        </li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Renew</a></li>
+        <li><a href="#">Join ACAD </a></li>
+        <li><a href="#">Subscribe for Email Updates</a></li>
+      </ul>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
 </html>
